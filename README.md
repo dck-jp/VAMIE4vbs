@@ -4,8 +4,8 @@ VAMIE (VAMIE4vbs) is VBScript Auto Mation for Internet Explorer, inspired By PAM
 
 
 ## Usage
-Please see the [Sample.bas](https://github.com/dck-jp/VAMIE4vbs/blob/master/Sample.bas).  
-使い方は、[Sample.bas](https://github.com/dck-jp/VAMIE4vbs/blob/master/Sample.bas)を見てください。
+Please see the [Sample.vbs](https://github.com/dck-jp/VAMIE4vbs/blob/master/Sample.vbs).  
+使い方は、[Sample.vbs](https://github.com/dck-jp/VAMIE4vbs/blob/master/Sample.vbs)を見てください。
 
 ## License
 This source code is under [MIT License](https://github.com/dck-jp/VBAFramework/blob/master/LICENSE)  

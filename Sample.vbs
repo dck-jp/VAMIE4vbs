@@ -1,6 +1,7 @@
 Option Explicit
 Call Main()
 
+'Need for importing "VAMIE.vbs"
 Public Sub Import(ByVal strFileName) ' 外部スクリプトをロードするための関数
 	Dim objFso : Set objFso = WScript.CreateObject("Scripting.FileSystemObject")
 	DIm objFile : Set objFile = objFso.OpenTextFile(strFileName, 1, False) ' 1 = ReadOnly
@@ -8,6 +9,7 @@ Public Sub Import(ByVal strFileName) ' 外部スクリプトをロードするための関数
 	objFile.Close()
 End Sub
 
+'Sample Code that googles by the word "SeleniumVBA"
 Sub Main()
 	Import "VAMIE.vbs"
 	
@@ -23,7 +25,10 @@ Sub Main()
 	Call ie.Wait(2000)
 End Sub
 
+' Usage & Reference
+'使用例、兼、リファレンス　（このままでは動きません）
 Sub Sample()
+	Import "VAMIE.vbs"
 	dim ie : Set ie = New VAMIE
 
 	ie.Visible = True 'デフォルトTrue
