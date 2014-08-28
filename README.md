@@ -10,7 +10,7 @@ VAMIE (VAMIE4vbs) is VBScript Auto Mation for Internet Explorer, inspired By PAM
 - 1ファイルで完結
 - VBA版と共通化
 - より複雑な制御をしたい人向けには、RAWアクセス手段を提供
--- 任意のJavaScriptコードの実行や、Document objectにアクセスするためのプロパティを用意
+- (任意のJavaScriptコードの実行や、Document objectにアクセスするためのプロパティを用意)
 
 ## Usage
 Please see the [Sample.vbs](https://github.com/dck-jp/VAMIE4vbs/blob/master/Sample.vbs).  
